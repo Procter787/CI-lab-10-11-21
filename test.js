@@ -1,5 +1,13 @@
+// const favoriteState = require('./project');
 const getGreeting = require('./project');
 
-test('can create a basic greeting', () => {
-  expect(getGreeting('Sam')).toBe("Hi Sam");
+test('getGreeting can return a greeting', () => {
+  expect(getGreeting('Hi', 'Sam')).toEqual("Hi Sam")
 });
+
+// test('can learn what is their favorite state', () => {
+//   expect(favoriteState('Utah ')).toBe("Utah is my favorite too!")
+// });
+
+
+
